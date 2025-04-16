@@ -1,0 +1,108 @@
+.projects {
+  padding: 2rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.projectList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.projectItem {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+} 
+.projectItem:hover {
+  transform: scale(1.01);
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.9);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.projectImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.projectTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech {
+  padding: 0.4rem 0.8rem;
+  background: #0073e6;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background: #0073e6;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background: #005bb5;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .projectList {
+    grid-template-columns: 1fr;
+  }
+
+  .projectItem {
+    padding: 1rem;
+  }
+
+  .projectTitle {
+    font-size: 1.3rem;
+  }
+
+  .projectDescription {
+    font-size: 0.95rem;
+  }
+}
