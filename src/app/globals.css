@@ -9,3 +9,7 @@ html {
   top: 0.75rem;
   backdrop-filter: blur(8px);
 }
+body {
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+}
