@@ -3,39 +3,45 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
+  width: auto;
+  padding: 1rem;
   text-align: center;
-  background-color: #000; 
-  color: #fff; 
+  background-color: #000;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .introSection {
-  margin-bottom: 2rem;
+  margin-bottom: clamp(1rem, 5vw, 2rem);
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
 }
 
 .name {
-  font-size: 4rem;
+  font-size: clamp(2rem, 8vw, 4rem);
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.1rem; 
-  animation: pulse 2s infinite ease-in-out; 
+  letter-spacing: clamp(0.05rem, 0.5vw, 0.1rem);
+  animation: pulse 2s infinite ease-in-out;
+  margin: 0 auto;
+  line-height: 1.2;
 }
 
 @keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
 }
 
 .wave {
+  display: inline-block;
   animation: wave 1s infinite ease-in-out;
+  transform-origin: 70% 70%;
 }
 
 @keyframes wave {
@@ -47,32 +53,73 @@
 }
 
 .description {
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 4vw, 1.5rem);
   font-weight: 300;
-  margin-top: 1rem;
+  margin-top: clamp(0.5rem, 3vw, 1rem);
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
-  line-height: 2rem;
+  line-height: clamp(1.5rem, 5vw, 2rem);
   transition: transform 0.3s ease;
+  padding: 0 1rem;
 }
 
 .description:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .socialIcons {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: clamp(0.5rem, 3vw, 1rem);
+  margin-top: clamp(0.5rem, 3vw, 1rem);
+  flex-wrap: wrap;
 }
 
 .icon {
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
   color: #fff;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
 }
 
 .icon:hover {
   transform: scale(1.2) rotate(360deg);
+  color: #00bcd4;
 }
 
+/* Extra small devices (phones, 480px and down) */
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem 0.5rem;
+    justify-content: flex-start;
+    padding-top: 3rem;
+  }
+  
+  .name {
+    line-height: 1.1;
+  }
+  
+  .description {
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 3rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 1025px and up) */
+@media (min-width: 1025px) {
+  .container {
+    padding: 4rem;
+  }
+}

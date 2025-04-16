@@ -117,3 +117,26 @@
   .socialLinks a:hover {
   color: #0073e6;
   }
+  @media (max-width: 400px) {
+    .emailLink {
+      width: 100%;
+      justify-content: center;
+    }
+    
+    .socialLinks {
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Accessibility considerations */
+  @media (prefers-reduced-motion) {
+    .emailLink,
+    .socialLink {
+      transition: none;
+    }
+    
+    .emailLink:hover,
+    .socialLink:hover {
+      transform: none;
+    }
+  }
