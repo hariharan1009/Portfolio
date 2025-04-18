@@ -94,3 +94,8 @@ body {
 page {
   padding-top: 1rem; /* Reduce top padding */
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

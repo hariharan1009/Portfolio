@@ -40,7 +40,7 @@ export default function Footer() {
         </div>
         <div className={styles.socialLinks}>
      
-     <a href="https://www.linkedin.com/in/hari-haran-10sep2004" target="_blank" rel="noopener noreferrer">
+     <a href="https://www.linkedin.com/in/hari-haran-vm" target="_blank" rel="noopener noreferrer">
        <FaLinkedin />
      </a>
      <a href="https://github.com/hariharan1009" target="_blank" rel="noopener noreferrer">

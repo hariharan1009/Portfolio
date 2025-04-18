@@ -10,13 +10,13 @@ const hero: React.FC = () => {
       <div className={styles.introSection}>
         <h1 className={styles.name}>Hi, I'm Hariharan! <span className={styles.wave}>👋</span></h1>
         <p className={styles.description}>
-          Passionate Software Engineer | Fullstack Developer | Problem Slover Enthusiast
+          Passionate Software Engineer | Fullstack Developer |Problem Solver Enthusiast
         </p>
         <div className={styles.socialIcons}>
           <a href="https://github.com/hariharan1009" target="_blank" rel="noopener noreferrer" className={styles.icon}>
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/hari-haran-10sep2004" target="_blank" rel="noopener noreferrer" className={styles.icon}>
+          <a href="https://www.linkedin.com/in/hari-haran-vm" target="_blank" rel="noopener noreferrer" className={styles.icon}>
             <FaLinkedin />
           </a>
           <a href="mailto:mdhari707@gmail.com" className={styles.icon}>
