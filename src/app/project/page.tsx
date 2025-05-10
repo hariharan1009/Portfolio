@@ -21,11 +21,10 @@ const projects: Project[] = [
       'Typescript',
       'PostgreSQL',
       'Prisma',
-      'PostgreSQL'
     ],
     image: '/mockmate.png',
-    githubLink: 'https://github.com/hariharan1009/MockMate',
-    websiteLink: '',
+    githubLink: 'https://github.com/hariharan1009/MockMate-AI-Interview-Simulator',
+    websiteLink: 'https://mockmate1-tau.vercel.app/',
   },
   {
     title: ' NextStep',
@@ -35,7 +34,6 @@ const projects: Project[] = [
       'Next.js',
       'React js',
       'Typescript',
-      'PostgreSQL',
       'Prisma',
       'PostgreSQL'
     ],
@@ -52,7 +50,6 @@ const projects: Project[] = [
       'Next.js',
       'React js',
       'Typescript',
-      'PostgreSQL',
       'Prisma',
       'PostgreSQL'
     ],
@@ -78,6 +75,21 @@ const projects: Project[] = [
     githubLink: 'https://github.com/hariharan1009/ai-travel',
 
   },
+  //   {
+  //   title: ' BookSummizer ',
+  //   description:
+  //     'This project provides tools for processing and analyzing book-related content within PDF documents. Currently, it includes the following functionalities.',
+    //     technologies: [
+    //   'Next.js',
+    //   'React js',
+    //   'Typescript',
+    // ],
+  //   image: '/book.png', 
+  //   websiteLink: '',
+  //   githubLink: 'htthttps://github.com/hariharan1009/book-summarizer',
+
+  // },
+  
 ];
 
 const Projects: React.FC = () => {
