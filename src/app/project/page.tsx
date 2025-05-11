@@ -24,7 +24,7 @@ const projects: Project[] = [
     ],
     image: '/mockmate.png',
     githubLink: 'https://github.com/hariharan1009/MockMate-AI-Interview-Simulator',
-    websiteLink: 'https://mockmate1-tau.vercel.app/',
+    websiteLink: 'https://mock-mate-ai-interview-simulator.vercel.app/',
   },
   {
     title: ' NextStep',
