@@ -19,8 +19,6 @@ const projects: Project[] = [
       'Next.js',
       'React js',
       'Typescript',
-      'PostgreSQL',
-      'Prisma',
     ],
     image: '/mockmate.png',
     githubLink: 'https://github.com/hariharan1009/MockMate-AI-Interview-Simulator',
@@ -38,7 +36,7 @@ const projects: Project[] = [
       'PostgreSQL'
     ],
     image: '/nextstep.png', 
-    websiteLink: '',
+    websiteLink: 'https://github.com/hariharan1009/nextstep',
     githubLink: 'https://github.com/hariharan1009/nextstep',
 
   },
@@ -54,41 +52,41 @@ const projects: Project[] = [
       'PostgreSQL'
     ],
     image: '/helios.png',
-    websiteLink: '',
+    websiteLink: 'https://github.com/hariharan1009/helios',
     githubLink: 'https://github.com/hariharan1009/helios',
 
   },
-  {
-    title: ' DreamTrails ',
-    description:
-      'Modern Travel booking website featuring tour packages with interactive image galleries,Chatbot Assistant Integration,secure payment processing, and responsive design.',
-    technologies: [
-      'Html',
-      'Css',
-      'Php',
-      'javascript',
-      'xampp',
-      'SQL'
-    ],
-    image: '/travel.png', 
-    websiteLink: '',
-    githubLink: 'https://github.com/hariharan1009/ai-travel',
-
-  },
-  //   {
-  //   title: ' BookSummizer ',
+  // {
+  //   title: ' DreamTrails ',
   //   description:
-  //     'This project provides tools for processing and analyzing book-related content within PDF documents. Currently, it includes the following functionalities.',
-    //     technologies: [
-    //   'Next.js',
-    //   'React js',
-    //   'Typescript',
-    // ],
-  //   image: '/book.png', 
+  //     'Modern Travel booking website featuring tour packages with interactive image galleries,Chatbot Assistant Integration,secure payment processing, and responsive design.',
+  //   technologies: [
+  //     'Html',
+  //     'Css',
+  //     'Php',
+  //     'javascript',
+  //     'xampp',
+  //     'SQL'
+  //   ],
+  //   image: '/travel.png', 
   //   websiteLink: '',
-  //   githubLink: 'htthttps://github.com/hariharan1009/book-summarizer',
+  //   githubLink: 'https://github.com/hariharan1009/ai-travel',
 
   // },
+    {
+    title: ' BookSummizer ',
+    description:
+      'This project provides tools for processing and analyzing book-related content within PDF documents. Currently, it includes the following functionalities.',
+        technologies: [
+      'Next.js',
+      'React js',
+      'Typescript',
+    ],
+    image: '/book.png', 
+    websiteLink: 'https://book-summarizer-sand.vercel.app',
+    githubLink: 'htthttps://github.com/hariharan1009/book-summarizer',
+
+  },
   
 ];
 
