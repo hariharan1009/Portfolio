@@ -149,3 +149,23 @@
     gap: 2.5rem;
   }
 }
+.showMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.showMoreButton {
+  padding: 0.8rem 1.5rem;
+  background: #0073e6;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.showMoreButton:hover {
+ background: #005bb5;
+  transform: scale(1.05);
+}
