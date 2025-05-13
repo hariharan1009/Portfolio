@@ -121,16 +121,8 @@ const Projects: React.FC = () => {
           </div>
         ))}
       </div>
-      {/* Add the Show More button at the bottom of the projects section */}
       <div className={styles.showMoreContainer}>
-        <a
-          href="https://github.com/hariharan1009" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.showMoreButton}
-        >
-          Show More Projects
-        </a>
+        
       </div>
     </section>
   );

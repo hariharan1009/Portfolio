@@ -1,9 +1,8 @@
 "use client";
 import styles from './page.module.css';
-// Removed unused imports
 import Projects from './project/page';
 import About from './about/page';
-import Hero from '@/app/hero/page'; // Ensure the component is properly named
+import Hero from '@/app/hero/page'; 
 export default function Home() {
   return (
     <>

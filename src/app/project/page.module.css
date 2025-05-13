@@ -105,7 +105,6 @@
   transform: scale(1.05);
 }
 
-/* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
   .projects {
     padding: 1rem;
@@ -121,14 +120,12 @@
   }
 }
 
-/* Medium devices (tablets, 601px to 900px) */
 @media (min-width: 601px) and (max-width: 900px) {
   .projectList {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Large devices (laptops/desktops, 901px and up) */
 @media (min-width: 901px) {
   .projects {
     padding: 2rem;
@@ -139,7 +136,6 @@
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .projects {
     padding: 3rem;
